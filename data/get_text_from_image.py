@@ -6,7 +6,7 @@ import cv2
 
 
 # For windows:
-# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\HP\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
 
 
 def convert_images_to_text(path_input: str, path_output: str):

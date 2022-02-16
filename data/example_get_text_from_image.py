@@ -2,7 +2,7 @@ import pytesseract
 import cv2
 
 # For windows:
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\\Users\\HP\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe'
 
 img = cv2.imread('images/demo.jpeg')
 text = pytesseract.image_to_string(img, lang="ukr")
